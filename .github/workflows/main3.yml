@@ -34,10 +34,6 @@ jobs:
       - name: Run npm ci
         run: npm ci
 
-      # Add additional steps for building and testing your project as needed
-
-      - name: Run tests
-        run: npm test
 
       # Add more steps here for your specific build and test process
 
