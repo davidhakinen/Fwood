@@ -22,9 +22,6 @@ jobs:
       - name: Clear npm cache
         run: npm cache clean --force
 
-      - name: Copy .npmrc
-        run: cp .npmrc $HOME/.npmrc
-
       - name: Install dependencies
         run: npm install
 
@@ -33,7 +30,6 @@ jobs:
 
       - name: Run npm ci
         run: npm ci
-
 
       # Add more steps here for your specific build and test process
 
